@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  tf_inScroll.h
 //  tf_inScrollView
 //
 //  Created by zhanglingxiang on 16/4/21.
@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "tf_inScroll.h"
 
-@interface ViewController : UIViewController
+@interface tf_inScroll : UITextField
 
-@property (weak, nonatomic) IBOutlet tf_inScroll *tf_tx;
+@property(weak,nonatomic) UIScrollView* scrollView;
 
 @end
-

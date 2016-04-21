@@ -14,6 +14,10 @@
 		7BBADE181CC8B7B000C66E45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BBADE171CC8B7B000C66E45 /* Images.xcassets */; };
 		7BBADE1B1CC8B7B000C66E45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BBADE191CC8B7B000C66E45 /* LaunchScreen.xib */; };
 		7BBADE271CC8B7B000C66E45 /* tf_inScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBADE261CC8B7B000C66E45 /* tf_inScrollViewTests.m */; };
+		7BBADE321CC8B7D300C66E45 /* tf_inScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBADE311CC8B7D300C66E45 /* tf_inScroll.m */; };
+		7BBADE351CC8BC0400C66E45 /* tv_inScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBADE341CC8BC0400C66E45 /* tv_inScroll.m */; };
+		7BBADE381CC8BFF900C66E45 /* tf_inView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBADE371CC8BFF900C66E45 /* tf_inView.m */; };
+		7BBADE3B1CC8C28200C66E45 /* tv_inView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBADE3A1CC8C28200C66E45 /* tv_inView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		7BBADE201CC8B7B000C66E45 /* tf_inScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tf_inScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BBADE251CC8B7B000C66E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BBADE261CC8B7B000C66E45 /* tf_inScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tf_inScrollViewTests.m; sourceTree = "<group>"; };
+		7BBADE301CC8B7D300C66E45 /* tf_inScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tf_inScroll.h; sourceTree = "<group>"; };
+		7BBADE311CC8B7D300C66E45 /* tf_inScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tf_inScroll.m; sourceTree = "<group>"; };
+		7BBADE331CC8BC0400C66E45 /* tv_inScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tv_inScroll.h; sourceTree = "<group>"; };
+		7BBADE341CC8BC0400C66E45 /* tv_inScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tv_inScroll.m; sourceTree = "<group>"; };
+		7BBADE361CC8BFF900C66E45 /* tf_inView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tf_inView.h; sourceTree = "<group>"; };
+		7BBADE371CC8BFF900C66E45 /* tf_inView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tf_inView.m; sourceTree = "<group>"; };
+		7BBADE391CC8C28200C66E45 /* tv_inView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tv_inView.h; sourceTree = "<group>"; };
+		7BBADE3A1CC8C28200C66E45 /* tv_inView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tv_inView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,14 @@
 				7BBADE171CC8B7B000C66E45 /* Images.xcassets */,
 				7BBADE191CC8B7B000C66E45 /* LaunchScreen.xib */,
 				7BBADE0A1CC8B7B000C66E45 /* Supporting Files */,
+				7BBADE301CC8B7D300C66E45 /* tf_inScroll.h */,
+				7BBADE311CC8B7D300C66E45 /* tf_inScroll.m */,
+				7BBADE331CC8BC0400C66E45 /* tv_inScroll.h */,
+				7BBADE341CC8BC0400C66E45 /* tv_inScroll.m */,
+				7BBADE361CC8BFF900C66E45 /* tf_inView.h */,
+				7BBADE371CC8BFF900C66E45 /* tf_inView.m */,
+				7BBADE391CC8C28200C66E45 /* tv_inView.h */,
+				7BBADE3A1CC8C28200C66E45 /* tv_inView.m */,
 			);
 			path = tf_inScrollView;
 			sourceTree = "<group>";
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BBADE3B1CC8C28200C66E45 /* tv_inView.m in Sources */,
 				7BBADE131CC8B7B000C66E45 /* ViewController.m in Sources */,
+				7BBADE351CC8BC0400C66E45 /* tv_inScroll.m in Sources */,
 				7BBADE101CC8B7B000C66E45 /* AppDelegate.m in Sources */,
+				7BBADE381CC8BFF900C66E45 /* tf_inView.m in Sources */,
 				7BBADE0D1CC8B7B000C66E45 /* main.m in Sources */,
+				7BBADE321CC8B7D300C66E45 /* tf_inScroll.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +440,7 @@
 				7BBADE2C1CC8B7B000C66E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BBADE2D1CC8B7B000C66E45 /* Build configuration list for PBXNativeTarget "tf_inScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				7BBADE2F1CC8B7B000C66E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

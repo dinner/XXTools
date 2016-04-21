@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  tv_inView.h
 //  tf_inScrollView
 //
 //  Created by zhanglingxiang on 16/4/21.
@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "tf_inScroll.h"
 
-@interface ViewController : UIViewController
+@interface tv_inView : UITextView
 
-@property (weak, nonatomic) IBOutlet tf_inScroll *tf_tx;
+@property(weak,nonatomic) UIView* view;
 
 @end
-
